@@ -1,0 +1,152 @@
+.btn-transparent{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    padding-inline: .5rem;
+    font-weight: 600;
+}
+
+.back-icon{
+    width: 14.06px;
+    height: 28.18px;
+}
+
+
+
+.form-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.btn-border{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-inline: 3.594rem;
+    padding-block: 0.625rem;
+    background-color: none;
+    background: none;
+    border: 1px solid var(--turquesa-900);
+    border-radius: 0.313rem;
+}
+
+.btn-google{
+    margin-top: 1rem;
+    margin-bottom: 3.375rem;
+}
+
+.btn-solid{
+    display: flex;
+    background-color: var(--turquesa-800);
+    gap: 1rem;
+    border: none;
+    border-radius: .313rem;
+}
+
+.btn-lg{
+    padding-inline: 2.75rem ;
+    padding-block: 1rem;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-items{
+    display: flex;
+    flex-direction: row;
+    gap: 3.7rem;
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.items-and-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 25rem;
+}
+
+.footer-hr{
+    border: solid 1px var(--turquesa-500);
+    width: 90%;
+    margin-block: 2rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-block: 2rem;
+    margin-top: 2rem;
+}
+
+button{
+   transition-duration: 0.4s; 
+   cursor: pointer;
+}
+
+.btn-transparent:hover{
+    cursor: pointer;
+    color: var(--turquesa-900);
+    font-weight: 900;
+    transition-duration: 0.4s; 
+    text-decoration: underline;
+}
+
+a:hover{
+    cursor: pointer;
+    color: var(--turquesa-900);
+    font-weight: 900;
+    transition-duration: 0.4s; 
+}
+
+a.btn-lg:hover{
+    color: white;
+}
+
+.btn-border:hover{
+    background-color: var(--turquesa-500);
+}
+
+.btn-solid:hover{
+    background-color: var(--turquesa-900);
+}
+
+/*Adicionar erro input no label e input e mostrar texto com classe texto-de-aviso*/
+
+.erro-input{
+    color: var(--vermelho);
+    border-color: var(--vermelho);
+}
+
+.texto-de-aviso{
+    color: var(--vermelho);
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 900px) {
+    .footer-items{
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+    }
+    .items-and-icon{
+        flex-direction: column;
+        gap: 2rem;
+    }
+}

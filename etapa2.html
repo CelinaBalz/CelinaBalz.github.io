@@ -15,7 +15,7 @@
 
 <body class="container">
     <header>
-        <a  class="md-title btn-transparent">
+        <a class="md-title btn-transparent">
             <img class="back-icon" src="img/back icon.png" alt="">
              Volte para a página inicial
         </a>
@@ -26,66 +26,50 @@
             <img src="img/MEDIF logo.png" alt="">
         </div>
         <form class="form-container" action="post">
-            <h6 class="spacing-md cinza-escuro-400 md-text align-center gray-title">Etapa 1</h6>
-            <button disabled class=" align-center md-text turquesa-700 btn-border bold">
-            <img src="img/google icon.png" alt="">
-                Crie sua conta com o Google
-            </button>
-            <div class="line-title">
-                <hr>
-                <h6 class="spacing-l cinza-escuro-400 sm-title gray-title">OU CADASTRE-SE</h6>
-                <hr>
-            </div>
+            <h6 class="spacing-md cinza-escuro-400 md-text align-center gray-title">Etapa 2</h6>
+
             <div class="input-containers align-center">
 
                 <div class="form-input-container ">
-                    <label class=" sm-title cinza-escuro-900">Nome completo</label>
-                    <input required  class="" type="text" name="nome" id="nome" placeholder="Insira seu nome completo">
+                    <label class=" sm-title cinza-escuro-900">Plano de Saúde</label>
+                    <input required class="" type="text" name="nomeplano" id="nomeplano" placeholder="Insira seu plano de saúde">
                 </div>
     
-                <div class="form-input-container-sm">
-                    <div class="input-sm form-input-container">
-                        <label class="sm-title cinza-escuro-900">Idade</label>
-                        <input required  type="number" name="idade" id="idade" placeholder="Ex. 20">
+                <div class="form-input-container ">
+                    <label class=" sm-title cinza-escuro-900">Matrícula do Plano</label>
+                    <input required class="" type="number" name="matriculaplano" id="matriculaplano" placeholder="Insira a matricula do seu plano de saúde">
+                </div>
+    
+                
+                <div class="form-input-container-m">
+                    <div class="input-xl form-input-container">
+                        <label class="sm-title cinza-escuro-900">Vencimento do Plano</label>
+                        <input required  type="date" name="vencimento" id="vencimento" placeholder="Ex. 20/03/2023">
                     </div>
-                    <div class="input-sm form-input-container">
-                        <label class="sm-title cinza-escuro-900">Peso</label>
-                        <input required  type="number" name="peso" id="peso" placeholder="Ex. 75.5">
-                    </div>
-                    <div class="input-md form-input-container">
-                        <label class="sm-title cinza-escuro-900">Sexo</label>
-                        <select required  name="sexo" id="sexo">
-                            <option value="feminino">Feminino</option>
-                            <option value="masculino">Masculino</option>
-                            <option value="outro">Outro</option>
-                        </select>
+                    <div class="input-xl form-input-container" >
+                        <label  class="sm-title cinza-escuro-900">Número do Prontuário</label>
+                        <input required type="number" name="numeroprontuario" id="numeroprontuario" placeholder="Insira o número do prontuário ">
                     </div>
                 </div>
                 <div class="form-input-container-m">
-                    <div class="input-sm form-input-container">
-                        <label class="sm-title cinza-escuro-900">Altura</label>
-                        <input required  type="number" name="altura" id="altura" placeholder="Ex. 1.75">
+                    <div class="input-xl form-input-container">
+                        <label class="sm-title cinza-escuro-900">Hora do atedimento</label>
+                        <input required  type="time" name="horaatendimento" id="horaatendimento" placeholder="Ex. 10:05">
                     </div>
-                    <div class="input-l form-input-container" >
-                        <label  class="sm-title cinza-escuro-900">Telefone</label>
-                        <input required type="number" name="telefone" id="telefone" placeholder="Ex. (11) 2233 4455 ">
+                    <div class="input-xl form-input-container" >
+                        <label  class="sm-title cinza-escuro-900">Data do atendimento</label>
+                        <input required type="date" name="dataatendimento" id="dataatendimento" placeholder="Ex. 10/12/2023 ">
                     </div>
                 </div>
     
-                <div class="form-input-container">
-                    <label class="sm-title cinza-escuro-900">Endereço</label>
-                    <input required  type="text" name="endereco" id="endereco" placeholder="Insira seu endereço">
+                <div class="form-input-container ">
+                    <label class=" sm-title cinza-escuro-900">Senha do Painel</label>
+                    <input required class="" type="text" name="senhapainel" id="senhapainel" placeholder="Insira a senha do painel">
                 </div>
-                <div class="form-input-container">
-                    <label class="sm-title cinza-escuro-900">CEP</label>
-                    <input required  type="number" name="cep" id="cep" placeholder="Insira seu CEP">
-                </div>
-                <div class="form-btns">
-                    <button  onclick="window.location.href = 'etapa2.html' " class="btn-lg cinza-escuro-100 btn-solid md-title">Continuar
+                    <button onclick="window.location.href = 'etapa-final.html' " class="align-center btn-lg cinza-escuro-100 btn-solid md-title">Continuar
                         <img src="img/netx icon.png" class="next-icon" alt="">
                     </button>
-                    <button disabled class="btn-lg btn-border turquesa-900 md-title">Entre em sua conta</button>
-                </div>
+           </div>
 
             </div>
             

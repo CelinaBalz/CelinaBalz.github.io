@@ -1,0 +1,293 @@
+:root {
+    --turquesa-900: #003C3D;
+    --turquesa-800: #26595A;
+    --turquesa-700: #006F68;
+    --turquesa-600: #7BC9C4;
+    --turquesa-500: #BED4D4;
+    --turquesa-400: #E6F5F5;
+
+    --cinza-escuro-900: #282833;
+    --cinza-escuro-700: #53536A;
+    --cinza-escuro-400: #B6B6BB;
+    --cinza-escuro-300: #D9D9D9;
+    --cinza-escuro-200: #F9F9F9;
+    --cinza-escuro-100: #FFFFFF;
+
+    --verde: #4BB543;
+    --vermelho: #EF2637;
+    --laranja: #FFA600;
+    --azul: #0072E3;
+
+}
+
+.cinza-escuro-900{
+    color: var(--cinza-escuro-900);
+}
+
+.turquesa-900{
+    color: var(--turquesa-900);
+}
+.turquesa-800{
+    color: var(--turquesa-800);
+}
+
+.turquesa-700{
+    color: var(--turquesa-700);
+}
+
+.turquesa-600{
+    color: var(--turquesa-600);
+}
+
+.cinza-escuro-400{
+    color: var(--cinza-escuro-400);
+}
+
+.cinza-escuro-300{
+    color: var(--cinza-escuro-300);
+}
+
+.cinza-escuro-100{
+    color: var(--cinza-escuro-100);
+}
+
+/*Md text Open Sans Bold 24px*/
+
+.md-title{
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/*lg text Open Sans Semibold 32*/
+.lg-title{
+    font-family: 'Open Sans';
+    font-weight: 600 ;
+    font-size: 32px;
+}
+
+.sm-title{
+    font-family: 'DM Sans';
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.gray-title{
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.bold{
+    font-weight: 600;
+
+}
+
+
+
+.xsm-text{
+    font-family: 'DM Sans';
+    font-size: 16px;
+    line-height: 27px;
+
+}
+
+
+.md-text{
+    font-family: 'DM Sans';
+    font-size: 24px;
+}
+
+.sm-text{
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+
+.container{
+    padding-block: 25px;
+    padding-inline: 1rem;
+    background-color: var(--cinza-escuro-200);
+}
+
+.main-container{
+    padding-block: 5.875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/Background.png);
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+    padding-block: 1rem;
+    padding-inline: 5.188rem;
+    background-color: var(--cinza-escuro-100);
+    box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+}
+
+hr{
+    border: solid var(--cinza-escuro-300) 1px;
+    width: 10rem;
+}
+
+.line-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.align-center{
+    align-self: center;
+}
+
+.form-input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.5rem;
+    width: 32rem;
+}
+
+.form-input-container-sm{
+     display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between ;
+    width: 33rem;
+}
+
+.form-input-container-m{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.input-sm{
+    width: 7.104rem;
+}
+
+.input-md{
+    width: 15.104rem;
+}
+
+.input-l{
+    width: 20rem;
+
+}
+
+.input-xl{
+    width: 13.4rem;
+}
+
+
+input{
+    width: 100%;
+    padding-block: 0.938rem;
+    padding-left: 1rem;
+    border: 1px solid var(--cinza-escuro-400);
+    border-radius: .3rem;
+}
+
+input::placeholder{
+    font-family: 'DM Sans';
+    color: var(--cinza-escuro-400);
+}
+
+select{
+    width: 100%;
+    padding-block: 0.938rem;
+    padding-inline: 1rem;
+    border: 1px solid var(--cinza-escuro-400);
+    border-radius: .3rem;
+    color: var(--cinza-escuro-700);
+}
+
+.form-btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2.5rem;
+    padding-top: 1.375rem;
+}
+
+.next-icon{
+    width: 0.8rem;
+    height: 1.2rem;
+}
+
+.terms{
+    font-family: 'DM Sans';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 36px;
+    width: 35rem;
+}
+
+.links{
+    padding-block: 2.5rem;
+    gap: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.spacing-md{
+    padding-block: 1.375rem;
+}
+
+.spacing-l{
+    padding-block: 2.3rem;
+}
+
+.input-containers{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.final-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3.3rem;
+    padding-block: 3rem;
+    margin-block:3rem ;
+}
+
+.xl-title{
+    font-family: 'DM Sans';
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--cinza-escuro-700);
+    width: 40rem;
+    text-align: center;
+    line-height: 76px;
+    font-weight: 700;
+font-size: 54px;
+line-height: 76px;
+/* or 141% */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+}
+
+.right-icon{
+    width: 4rem;
+    height: 2.5rem;
+}
+
+a{
+    scroll-behavior: smooth;
+}
